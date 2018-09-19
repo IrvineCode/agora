@@ -1,0 +1,28 @@
+.Gate {
+    background: silver;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gate > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Gate a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Gate button {
+    background: tomato;
+    color: white;
+    padding: 5px;
+}
+
+.Gate .errMsg {
+    color: tomato;
+}
