@@ -3,11 +3,12 @@ import './App.css';
 import { firebase } from './utils/firebase';
 import FrontPage from './pages/FrontPage';
 import Gate from './pages/Gate';
+import Opinion from './pages/Opinion';
 
 class App extends Component {
 	constructor() {
 		super();
-		this.state = { user: undefined };
+		this.state = { user: undefined, post: undefined };
 	}
 	componentDidMount() {
 		firebase.auth().onAuthStateChanged((user) => {
