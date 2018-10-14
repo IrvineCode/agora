@@ -1,28 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Hi+Melody|Mali");
+
 .Gate {
-    background: brown;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: rgb(197, 105, 105);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gate > div > h1 {
+  font-family: "Courier ";
+  color: white;
+  font-size: 4.5em;
+  margin-bottom: 0px;
+}
+
+.Gate > div > p {
+  font-family: "Courier ";
+  margin-top: 0px;
+  font-size: 1.2em;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .Gate > form > div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  color: white;
 }
 
 .Gate a {
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
+  margin-top: 30px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .Gate button {
-    background: tomato;
-    color: white;
-    padding: 5px;
+  background: white;
+  color: rgb(197, 105, 105);
+  padding: 5px;
 }
 
 .Gate .errMsg {
-    color: tomato;
+  color: rgb(197, 105, 105);
 }
