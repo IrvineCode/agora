@@ -2,7 +2,7 @@
 
 .Gate {
   background: rgb(197, 105, 105);
-  height: 100vh;
+  height: 120vh;
 
   display: flex;
   flex-direction: column;

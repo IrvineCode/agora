@@ -70,10 +70,10 @@ class Gate extends React.Component {
           </div>
           {this.state.mode === "signup" && (
             <div>
-              <label>displayname</label>
+              <label>Username</label>
               <input
                 type="text"
-                name="username"
+                name="displayname"
                 value={this.state.displayname}
                 onChange={this.handleChange}
               />

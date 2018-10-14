@@ -2,14 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-family: "Gloria Hallelujah";
 }
 
 .logo {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Gloria Hallelujah" !important;
+  font-size: 2.2em;
 }
 
 h1 {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "courier ";
   font-weight: bold;
   font-size: 1.1em;
 }
